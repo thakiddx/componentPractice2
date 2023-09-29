@@ -1,5 +1,6 @@
 import ".App/.css";
 import NewsTicker from "./components/NewsTicker";
+import ColorPickerItem from './ColorPicker';
 
 export default function App() {
   return (
@@ -15,7 +16,7 @@ export default function App() {
         </div>
         <div className="component-container blue">
           <h1>component 2</h1>
-          {/* put component2 RIGHT here */}
+          <ColorPickerItem />
         </div>
         <div className="component-container green">
           <h1>component 3</h1>
