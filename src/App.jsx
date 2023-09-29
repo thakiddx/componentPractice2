@@ -1,4 +1,5 @@
-import "./styles.css";
+import ".App/.css";
+import NewsTicker from "./components/NewsTicker";
 
 export default function App() {
   return (
@@ -10,7 +11,7 @@ export default function App() {
       <div className="easy flex-row">
         <div className="component-container red">
           <h1>component 1</h1>
-          {/* put Component1 RIGHT here */}
+          <NewsTicker />
         </div>
         <div className="component-container blue">
           <h1>component 2</h1>
