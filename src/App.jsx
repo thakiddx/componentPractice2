@@ -1,6 +1,7 @@
 import ".App/.css";
 import NewsTicker from "./components/NewsTicker";
 import ColorPickerItem from './ColorPicker';
+import UserProfileCard from "./components/UserProfileCard";
 
 export default function App() {
   return (
@@ -20,7 +21,7 @@ export default function App() {
         </div>
         <div className="component-container green">
           <h1>component 3</h1>
-          {/* put component3 RIGHT here */}
+          <UserProfileCard />
         </div>
         <div className="component-container grey">
           <h1>component 4</h1>
